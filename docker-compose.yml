@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  # ── Backend (FastAPI + MLP Model) ──
+  backend:
+    build: ./backend
+    container_name: yoga-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    environment:
+      - FRONTEND_URL=http://localhost
+    volumes:
+      - backend-uploads:/app/uploads
+    restart: unless-stopped
+
+  # ── Frontend (React + Nginx) ──
+  frontend:
+    build: ./frontend
+    container_name: yoga-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend-uploads:

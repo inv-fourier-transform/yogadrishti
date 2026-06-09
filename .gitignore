@@ -1,0 +1,60 @@
+# Environment & Secrets
+.env
+*.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+dist/
+*.egg-info/
+
+# Database (legacy SQLite)
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Uploads
+uploads/
+
+# ── Dataset ──
+Yoga-82/
+data/
+
+# ── Artifacts (presentations, test images, old files) ──
+artifacts/Test/
+artifacts/Yoga_AI_Pose_Analyzer_final_deck.pdf
+artifacts/Yogadrsti_Presentation_Deck.pdf
+artifacts/Old artifacts/
+artifacts/Other old artifacts/
+
+# ── Trained models & weights (large binaries) ──
+backend/models/
+
+# ── Model training & dataset scripts (custom MLP / classifier build code) ──
+backend/app/services/dataset/
+
+# ── Geometric rule engine (scoring internals) ──
+backend/app/core/pose_evaluation/scoring.py
+backend/app/core/pose_evaluation/angles.py
+backend/app/core/pose_evaluation/alignment.py
+backend/app/core/pose_evaluation/pose_rules.py
+
+# ── Training logs ──
+backend/train_resnet_out*.txt
+backend/training_output*.txt
+
+# ── Test / debug scripts ──
+backend/test_heuristic.py
+backend/test_all_images.py
+backend/test_api.py
+backend/test_api_images.py
+backend/debug_server.py
