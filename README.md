@@ -69,7 +69,7 @@
 
 The primary motivation for creating **Yogadṛṣṭi (योगदृष्टि)** was my deep desire to master as many Yoga poses as possible. 
 
-I built this tool to aid me in correcting my posture and to offer suitable guidance during my home practice. However, I want to emphasize: **This tool is not intended to, and will never replace an actual Yoga trainer** 
+I built this tool to aid me in correcting my posture and to offer suitable guidance during my home practice. However, I want to emphasize: **This tool is not intended to, and will never replace an actual Yoga trainer.** 
 
 ---
 
