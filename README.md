@@ -357,4 +357,4 @@ The journey to perfect Yoga alignment doesn't stop here. For Version 2 of Yogad�
 
 ---
 *AI might someday out-code me, refactor me, but not replace me -
-and it'll still be miles away from the clarity & support you receive from a skilled Yoga trainer!🙏🏻*
+and it'll still be miles away from the clarity & support you would receive from a skilled Yoga trainer!🙏🏻*
