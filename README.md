@@ -65,7 +65,7 @@
 
 ---
 
-## 💖 Motivation & Dedication
+## ✨ Motivation
 
 The primary motivation for creating **Yogadṛṣṭi (योगदृष्टि)** was my deep desire to master as many Yoga poses as possible. 
 
@@ -356,5 +356,5 @@ The journey to perfect Yoga alignment doesn't stop here. For Version 2 of Yogad�
 - **Yoga-82 Dataset:** Deep gratitude to the creators of the dataset that made this project's training phase possible: *Yoga-82: A New Dataset for Fine-grained Classification of Human Poses* (Yuta and Raman, Shanmuganathan, Sudhakar and Nakashima). The ~28,000 images defining 82 hierarchical classes provided the foundation for our classifier.
 
 ---
-*AI might someday out-code me, refactor me, & probably debug me too -
-but it'll still be miles away from the clarity & support you receive from a skilled Yoga trainer!🙏🏻*
+*AI might someday out-code me, refactor me, but not replace me -
+and it'll still be miles away from the clarity & support you receive from a skilled Yoga trainer!🙏🏻*
